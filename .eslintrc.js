@@ -9,6 +9,10 @@ module.exports = {
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    // https://github.com/prettier/eslint-config-prettier
+    "prettier/@typescript-eslint",
+    // https://github.com/prettier/eslint-plugin-prettier
+    "plugin:prettier/recommended",
   ],
   plugins: [
     // https://github.com/prettier/eslint-plugin-prettier
