@@ -1,8 +1,16 @@
 {
   "name": "react-app",
   "version": "0.0.0",
-  "main": "index.html",
+  "main": "src/index.html",
   "author": "Marek Skrajnowski <mskrajnowski@users.noreply.github.com>",
   "license": "MIT",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "parcel serve src/index.html",
+    "build": "parcel build src/index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "typescript": "^3.8.3"
+  }
 }
